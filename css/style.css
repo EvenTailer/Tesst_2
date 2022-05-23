@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+div {
+    border:chocolate 2px solid ;
+    display: inline-block;
+    border-radius: 5px;
+   
+}
+button {
+    width: 40px;
+    height: 40px;
+    background: url(../img/search-interface-symbol.png); 
+    background-color: rgb(133, 62, 11);
+    background-repeat: no-repeat;
+    background-size: 25px;
+  background-position: center;
+  border: none;
+  cursor: pointer;
+  vertical-align: top;
+}
+input {
+    vertical-align: top;
+    padding: 12px 12px 10px;
+    border: none;
+}
+input:focus {
+    border: none;
+    outline: none;
+}
+input::placeholder {
+    color:rgba(71, 61, 139, 0.199);
+}
+input:focus::placeholder {
+    opacity: 0;
+}
